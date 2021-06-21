@@ -1,0 +1,3 @@
+---
+- name: Deploy the application
+  copy: src=/home/ansible/project/example-tomcat-war/target/SimpleTomcatWebApp.war dest=/home/ansible/tomcat/webapps/
